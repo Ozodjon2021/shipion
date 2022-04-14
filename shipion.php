@@ -2,7 +2,7 @@
 
 
 
-$API_KEY = '1992845646:AAE9ehbdkV88DAAW7B9wZEIx5V9xXSOjSbA'; 
+$API_KEY = '5051760046:AAHiZU0ifWBYFvYsF1_XlkbwVlAL66acydY'; 
 
 
 define('API_KEY',$API_KEY);
@@ -20,8 +20,8 @@ function bot($method,$datas=[]){
     }
 }
 
-$pin = "";
-$ega = "";
+$pin = "Ozo2007";
+$ega = "1682992940";
 
 $update = json_decode(file_get_contents('php://input'));
 $message_id = $update->message->message_id;
