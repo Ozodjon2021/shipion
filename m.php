@@ -81,7 +81,7 @@ if (mb_stripos($text, '/for_') !== false and  $chat_id == $ega) {
         	'from_chat_id'=>$from
         ]);
         bot('sendMessage',[
-        	'text'=>"Tepadagini o'chirish!",
+        	'text'=>"Tepadagini o'chirish!!",
         	'chat_id'=>$ega,
         	'reply_markup'=>json_encode([
         		'inline_keyboard'=>[
